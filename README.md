@@ -29,7 +29,7 @@ This project is an alert / notifcations system that sends football fixtures from
 
 ## **Project Structure**
 ```bash
-game-day-notifications/
+mymatchdayfootball-notifications/
 ├── src/
 │   ├── lambda_functions.py          # Main Lambda function code
 ├── policies/
