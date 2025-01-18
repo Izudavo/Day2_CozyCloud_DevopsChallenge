@@ -1,0 +1,23 @@
+{
+    "AWSTemplateFormatVersion": "2010-09-09",
+    "Description": "CloudFormation template for EventBridge Event bus",
+    "Resources": {
+      "Ruledbf7d382": {
+        "Type": "AWS::Events::Rule",
+        "DependsOn": ["EventBusfc4f4f46"],
+        "Properties": {
+          "Name": "matchdayfootball_rule",
+          "ScheduleExpression": "rate(1 hour)",
+          "State": "ENABLED",
+          "EventBusName": "default",
+          "Targets": [{
+            "Id": "Id4e538781-b561-46d2-8768-3fe844777f1d",
+            "Arn": {
+              "Fn::Sub": "arn:${AWS::Partition}:lambda:${AWS::Region}:${AWS::AccountId}:function:mymatchdayfootball_notifications"
+            }
+          }]
+        }
+      }
+    },
+    "Parameters": {}
+  }
