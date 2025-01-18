@@ -20,7 +20,7 @@ This project is an alert / notifcations system that sends football fixtures from
 ## **Technologies**
 - **Cloud Provider**: AWS
 - **Core Services**: SNS, Lambda, EventBridge
-- **External API**: NBA Game API (SportsData.io)
+- **External API**: NBA Game API (football-data.org)
 - **Programming Language**: Python 3.x
 - **IAM Security**:
   - Least privilege policies for Lambda, SNS, and EventBridge.
