@@ -44,12 +44,6 @@ mymatchdayfootball-notifications/
 
 This project walk through was guided from REX TECH, although its repo project was centered on NBA live scores update, but still clone the repo to get started and veiw the walk through steps.
 
-### **Clone the Repository**
-```bash
-git clone https://github.com/ifeanyiro9/game-day-notifications.git
-cd game-day-notifications
-```
-
 ### **Challenges**
 
 Challenges is a core of devops encounter, it helps gain indepth understamding of whatever project is being worked on, i encountered a few configuring the API call from football-data.org, but after taking a break and coming back to it with some chatgpt reviews and reading, the ride was made possible and delivered successfully.
